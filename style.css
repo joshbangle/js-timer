@@ -1,0 +1,19 @@
+.timer {
+    font-size: 3em;
+}
+.main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.button {
+    width: 4em;
+    font-size: 1.5rem;
+    margin: 16px;
+}
+.input {
+    height: 1.5rem;
+    font-size: 1.3rem;
+}

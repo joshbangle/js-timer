@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+    <html>
+
+        <head>
+            <link rel="stylesheet" type="text/css" href="style.css">
+        </head>
+        <body>
+            <audio id="audio">
+                <source src="ding.wav" type="audio/ogg">
+            </audio>
+            <div class='main'>
+                <div class='timer' id='timer'>0</div>
+                <div class='buttons'>
+                <button class='button' id='start' onclick="countDown()">Start</button>
+                <button class='button' id='stop' onclick="isStopped()">Stop</button>
+                
+                </div>
+                <input class='input' id='input' placeholder='Enter Time' onchange='changeDisplayHandler()'></input>
+            </div>
+
+            <script src="javascript.js"></script>
+        </body>
+    </html>
