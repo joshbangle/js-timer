@@ -5,7 +5,7 @@ let audio = document.getElementById('audio');
 let input = document.getElementById('input');
 let timer = document.getElementById('timer');
 
-const changeDisplayHandler =() => {
+const changeDisplayHandler = () => {
   document.getElementById('timer').innerHTML = input.value;
 }
 const countDown = () => {
